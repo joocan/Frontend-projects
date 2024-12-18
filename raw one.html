@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Enrollment Form</title>
+</head>
+<body>
+  <h1>Student Enrollment Form</h1>
+
+  <h2>Enrollment Form</h2>
+  <form>
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="course">Select Course:</label>
+    <select id="course" name="course">
+      <option value="html-basics">HTML Basics</option>
+      <option value="css-fundamentals">CSS Fundamentals</option>
+      <option value="javascript-essentials">JavaScript Essentials</option>
+    </select>
+
+    <label for="additional-info">Additional Information:</label>
+    <textarea id="additional-info" name="additional-info"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <h2>Enrolled Students</h2>
+  <table border="1" cellpadding="10" cellspacing="0" width="100%">
+    <tr style="background-color: #4CAF50; color: white;">
+      <th>Student ID</th>
+      <th>Full Name</th>
+      <th>Email</th>
+      <th>Course</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Ayan Mohamed</td>
+      <td>ayan@gmail.com</td>
+      <td>HTML Basics</td>
+    </tr>
+    <tr style="background-color: #f2f2f2;">
+      <td>2</td>
+      <td>Ali Noor</td>
+      <td>ali@gmail.com</td>
+      <td>CSS Fundamentals</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Sara Ahmed</td>
+      <td>sara@gmail.com</td>
+      <td>JavaScript Essentials</td>
+    </tr>
+  </table>
+  
+
+  <p>&copy; 2024 citycolihub. All rights reserved.</p>
+  
+</body>
+</html>/*
